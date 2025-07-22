@@ -15,13 +15,15 @@ export const globalStyles = css`
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin: 0 auto;
-    background-color: white;
-    color: black;
+    margin: 0;
+    color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     width: 1366px;
+    background-color: #001733;
+    background-image: url('../src/assets/background-img.webp');
+    background-repeat: no-repeat;
+    background-position: 800px 150px;
   }
 `
